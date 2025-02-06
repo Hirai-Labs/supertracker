@@ -1,4 +1,4 @@
  
-# supertracker module
+# bytetrack module
 
-::: supertracker.supertracker
+::: supertracker.bytetrack
