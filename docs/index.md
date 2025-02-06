@@ -1,8 +1,7 @@
-# supertracker
+# Welcome to supertracker
 
 
 [![image](https://img.shields.io/pypi/v/supertracker.svg)](https://pypi.python.org/pypi/supertracker)
-[![image](https://img.shields.io/conda/vn/conda-forge/supertracker.svg)](https://anaconda.org/conda-forge/supertracker)
 
 [![image](https://pyup.io/repos/github/Hirai-Labs/supertracker/shield.svg)](https://pyup.io/repos/github/Hirai-Labs/supertracker)
 
@@ -11,7 +10,7 @@
 
 
 -   Free software: MIT License
--   Documentation: https://Hirai-Labs.github.io/supertracker
+-   Documentation: <https://Hirai-Labs.github.io/supertracker>
     
 
 ## Features
