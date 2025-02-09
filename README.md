@@ -1,7 +1,5 @@
 # supertracker
 
-[![image](https://img.shields.io/pypi/v/supertracker.svg)](https://pypi.python.org/pypi/supertracker)
-
 **An easy-to-use library for implementing various multi-object tracking algorithms.**
 
 ## Features
