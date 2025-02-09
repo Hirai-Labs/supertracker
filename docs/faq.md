@@ -20,9 +20,6 @@ pip install numpy opencv-python
 pip install supertracker
 ```
 
-### Does it work with Apple Silicon (M1/M2)?
-Yes, supertracker is compatible with Apple Silicon. No special installation steps are required.
-
 ## Usage
 
 ### How do I switch between different trackers?
@@ -35,6 +32,7 @@ from supertracker import ByteTrack  # Currently available
 
 ### Why are my tracks getting lost quickly?
 Check these common issues:
+
 1. Adjust `lost_track_buffer` for longer track retention
 2. Lower `track_activation_threshold` if detections are weak
 3. Ensure consistent frame rate processing
@@ -47,17 +45,20 @@ Check these common issues:
 
 ### What's the expected FPS?
 Performance depends on:
+
 - Detection model speed
 - Image resolution
 - Hardware capabilities
 - Number of objects
 
 Typical performance on modern hardware:
+
 - 30+ FPS at 720p
 - 20+ FPS at 1080p
 
 ### Memory Usage
 Typical memory usage:
+
 - Base: ~100MB
 - Per track: negligible (~1KB)
 - Total: Depends on number of active tracks
@@ -83,12 +84,14 @@ Yes, supertracker works with any detection model, including TensorRT optimized o
 
 #### "Dimension mismatch in detections"
 Check that your detection format matches:
+
 - xyxy: (N, 4) shape
 - confidence: (N,) shape
 - class_id: (N,) shape
 
 #### "No tracks found"
 Common causes:
+
 1. Detection confidence too low
 2. `track_activation_threshold` too high
 3. No detections being passed to tracker
@@ -103,6 +106,7 @@ Common causes:
 
 ### Where can I report bugs?
 Please report bugs on our [GitHub Issues](https://github.com/Hirai-Labs/supertracker/issues) page with:
+
 1. Minimal reproduction code
 2. Error message
 3. Environment details
