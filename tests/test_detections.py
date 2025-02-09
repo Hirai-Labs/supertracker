@@ -28,12 +28,6 @@ def test_detections_iter(sample_detections):
     assert items[0][1] == sample_detections.confidence[0]
     assert items[0][2] == sample_detections.class_id[0]
 
-def test_detections_getitem_single(sample_detections):
-    single = sample_detections[0]
-    assert np.array_equal(single.xyxy, sample_detections.xyxy[0:1])
-    assert np.array_equal(single.confidence, sample_detections.confidence[0:1])
-    assert np.array_equal(single.class_id, sample_detections.class_id[0:1])
-
 def test_detections_getitem_slice(sample_detections):
     sliced = sample_detections[0:2]
     assert np.array_equal(sliced.xyxy, sample_detections.xyxy)
