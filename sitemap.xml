@@ -2,34 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
+    </url>
+    <url>
+         <loc>https://Hirai-Labs.github.io/supertracker/bytetrack/</loc>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/changelog/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/contributing/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
+    </url>
+    <url>
+         <loc>https://Hirai-Labs.github.io/supertracker/detection/</loc>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/faq/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/installation/</loc>
-         <lastmod>2025-02-06</lastmod>
-    </url>
-    <url>
-         <loc>https://Hirai-Labs.github.io/supertracker/supertracker/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/usage/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
     </url>
     <url>
          <loc>https://Hirai-Labs.github.io/supertracker/examples/intro/</loc>
-         <lastmod>2025-02-06</lastmod>
+         <lastmod>2025-02-09</lastmod>
     </url>
 </urlset>
