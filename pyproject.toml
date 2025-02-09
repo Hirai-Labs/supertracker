@@ -33,8 +33,8 @@ all = [
     "supertracker[extra]",
 ]
 
-extra = [
-    "pandas",
+dev = [
+    "pytest>=7.0.0",
 ]
 
 
