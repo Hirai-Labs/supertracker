@@ -32,7 +32,7 @@ pip install supertracker
 
 ```python
 from supertracker import ByteTrack
-from supertracker.detection import Detections
+from supertracker import Detections
 
 # Initialize tracker
 tracker = ByteTrack(

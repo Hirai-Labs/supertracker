@@ -38,7 +38,7 @@ pip install supertracker
 import cv2
 from ultralytics import YOLO
 from supertracker import ByteTrack
-from supertracker.detection import Detections
+from supertracker import Detections
 
 # Initialize YOLO model and tracker
 model = YOLO('yolov8n.pt')  # or your custom model
