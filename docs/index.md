@@ -45,31 +45,6 @@ tracker = ByteTrack(
 tracked_objects = tracker.update_with_detections(detections)
 ```
 
-## Documentation Structure
-
-- **Getting Started**: Basic installation and usage
-- **Tutorials**: Step-by-step guides for common scenarios
-- **API Reference**: Detailed documentation of all classes and methods
-- **Examples**: Real-world implementation examples
-- **Configuration**: Tracker-specific parameter tuning
-- **Contributing**: Guidelines for contributing to the project
-
-## Performance
-
-Each tracker implementation is optimized for:
-- Real-time processing
-- Memory efficiency
-- Accuracy in various scenarios
-- Robust handling of occlusions
-
-## Integration Examples
-
-We provide examples for integration with popular detection frameworks:
-- YOLO (v5, v6, v7, v8)
-- Detectron2
-- TensorFlow Object Detection API
-- Custom detection models
-
 ## Support
 
 - [GitHub Issues](https://github.com/Hirai-Labs/supertracker/issues)

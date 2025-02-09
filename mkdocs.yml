@@ -82,4 +82,4 @@ nav:
     - Examples:
         - examples/intro.ipynb
     - API Reference:
-          - supertracker module: supertracker.md
+          - Bytetrack Module: bytetrack.md
