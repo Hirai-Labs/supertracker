@@ -17,15 +17,6 @@
 - Easy integration with existing detection pipelines
 - Modular design for adding new trackers
 
-## Documentation
-Visit our [documentation](https://Hirai-Labs.github.io/supertracker) to find:
-- Detailed API reference
-- Configuration guides for each tracker
-- Performance benchmarks
-- Integration examples with popular detection models
-- Advanced usage tutorials
-- Troubleshooting guide
-
 ## Installation
 
 ```bash
@@ -91,6 +82,9 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+## Documentation
+Visit our [documentation](https://Hirai-Labs.github.io/supertracker) for more details
 
 ## Contributing
 
