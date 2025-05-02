@@ -1,4 +1,8 @@
+from typing import Any, Dict, List, Optional, Tuple, Union
+
 import numpy as np
+import numpy.typing as npt
+
 
 def box_iou_batch(boxes_true: np.ndarray, boxes_detection: np.ndarray) -> np.ndarray:
     """
