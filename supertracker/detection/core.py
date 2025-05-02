@@ -57,9 +57,17 @@ class Detections:
 
         Returns:
             Detections: A subset of the Detections object.
+
+        Raises:
+            TypeError: If the index is not an integer, slice, list of integers, or numpy array.
         """
         if self.is_empty():
             return self
+            
+        # Validate index type
+        if not isinstance(index, (int, slice, list, np.ndarray)):
+            raise TypeError(f"Invalid index type: {type(index)}. Expected int, slice, list, or numpy.ndarray.")
+            
         if isinstance(index, int):
             index = [index]
         
@@ -72,6 +80,15 @@ class Detections:
             data={k: v[index] if isinstance(v, np.ndarray) else [v[i] for i in index] 
                   for k, v in self.data.items()} if self.data else {},
         )
+
+    def __iter__(self):
+        """
+        Iterate through the detections, yielding tuples of (xyxy, confidence, class_id).
+        """
+        for i in range(len(self)):
+            yield (self.xyxy[i], 
+                   self.confidence[i] if self.confidence is not None else None,
+                   self.class_id[i] if self.class_id is not None else None)
 
     @classmethod
     def empty(cls) -> Detections:
