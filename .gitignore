@@ -105,3 +105,8 @@ ENV/
 
 # IDE settings
 .vscode/
+
+# Other
+models/
+*.mp4
+ovms-supertracker.py
